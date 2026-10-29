@@ -17,7 +17,7 @@ python -m first_light benchmark
 python -m unittest discover -s tests -v
 ```
 
-`demo` prints the motor path for one original synthetic hill. `benchmark` runs four deterministic synthetic arrays, including a late second peak and a distant spike. These examples are engineering checks, not competition data or a prediction of official performance. The official judge used Python 3.14 and required standard library only; the solver has no third-party imports. The local commands were run with Python 3.12.14. GitHub Actions is configured to run on 3.12 and 3.14.
+`demo` prints the motor path for one original synthetic hill. `benchmark` runs four deterministic synthetic arrays, including a late second peak and a distant spike. These examples are engineering checks, not competition data or a prediction of official performance. The official judge used Python 3.14 and required standard library only; the solver has no third-party imports. The local commands ran with Python 3.12.14; [GitHub Actions](https://github.com/faitholopade/first-light/actions/runs/40898966320) passed on 3.12 and 3.14.
 
 The last confirmed official score in the archived scorer evidence is **1655.1**. The V30 submission tied the earlier V29 score on 14 October 2026. The association between that score and this local V30 file follows delivery records; the remote uploaded bytes were not independently hashed. This was not a winning entry, and I do not claim a final rank. Local synthetic scores and their exact command are recorded in [evaluation notes](docs/EVALUATION.md), separately from the official observation.
 
