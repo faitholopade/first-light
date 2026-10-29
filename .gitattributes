@@ -1,0 +1,2 @@
+# Preserve the scored submission exactly, including line endings.
+first_light/contestant.py -text

@@ -1,0 +1,9 @@
+# Sources, rights and dependencies
+
+The challenge, scoring rules and Python 3.14 runtime are described in Huawei's [Light Chaser challenge page](https://huawei.agorize.com/en/challenges/2026-france-tech-arena) and [official Optical participant pack](https://cdn.fs.agorize.com/2gFW7IjaRTq7mxH3QQdf). The [competition rules](https://huawei.agorize.com/en/challenges/2026-france-tech-arena/agreements?lang=en), section 11, say participants retain ownership of their submissions while granting the sponsor a non-exclusive license. They do not grant a general redistribution license for the organizer's starter files or test data.
+
+The V30 `contestant.py` is the author's competition submission, preserved byte for byte. The simulator, synthetic arrays, tests, documentation and packaging here were written for this repository with AI assistance. The MIT license applies to those original repository materials. Huawei names and challenge details are used for identification and attribution, not as an endorsement.
+
+The official starter kit's interactor, sample case, PDF documents and Python runner were consulted for contract checks but are not copied into this repository. The original [Waterloo focus-measure research](https://cs.uwaterloo.ca/~vanbeek/Research/research_cp.html) and other research image stacks were used in the private development archive; their arrays, images and derived variants are not redistributed here. The archived provenance did not establish redistribution rights for several sources, and even publicly downloadable files are not assumed to carry such rights. The four published arrays are original synthetic replacements.
+
+Runtime dependencies: Python standard library only for the solver, simulator, demo and tests. Packaging uses setuptools as a build backend; it is not imported by the solver. The official judge required Python 3.14. Local verification used Python 3.12.14; GitHub Actions tests are configured for 3.12 and 3.14.
